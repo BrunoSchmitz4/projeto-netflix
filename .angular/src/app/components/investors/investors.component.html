@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="investors.component.css">
+    <title>Investidores</title>
+</head>
+<body class="body">
+    <div class="escopo">
+        <router-outlet>
+            <header class="cabecalho">
+                <div class="header-container">
+                    <div class="header-cont-cont">
+                        <img src="http://localhost:4200/assets/logo-netflix.png" class="header-logo" alt="logo-netflix">
+                        <h4 class="header-name">Investors</h4>
+                    </div>
+                    <div class="header-cont-cont">
+                        <a class="header-log-link" routerLink="/">OVERVIEW</a>
+                        <a class="header-log-link" routerLink="/">FINANCIALS</a>
+                        <a class="header-log-link" routerLink="/">NEWS & EVENTS</a>
+                        <a class="header-log-link" routerLink="/">STOCK INFO</a>
+                        <a class="header-log-link" routerLink="/">ENVIRONMENTAL, SOCIAL & GOVERNANCE</a>
+                        <a class="header-log-link" routerLink="/">RESOUCERS</a>
+                    </div>
+                </div>
+            </header>
+            <hr>
+            <main class="main">
+                <div class="main-container">
+                    <div class="main-cont1">
+                        <div class="main-cont-cont1">
+                            <h1 class="main-c1-title">Perfil da companhia</h1>
+                            <h5 class="main-c1-sub">
+                                A Netflix é um dos principais serviços de entretenimento do mundo,<br> com 221 milhões de assinaturas pagas em mais de 190 países, desfrutando de séries de TV,<br> documentários, longas-metragens e jogos para celular em uma ampla variedade de gêneros e idiomas.<br> Os membros podem assistir o quanto quiserem, a qualquer hora, em qualquer lugar, em qualquer tela conectada à Internet.<br> Os membros podem reproduzir, pausar e continuar assistindo, tudo sem comerciais ou compromissos.
+                        </h5>
+                        </div>
+                        <div class="main-cont-cont1">
+                            <div class="main-c1-texter">
+                                <p class="main-c1-para"> <b>NASDAQ:</b> NFLX</p>
+                                <p> $241,78</p>
+                                <p>-1,07 (-0,44%)</p>
+                                <p><b>Volume:</b> 1.223.208</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="main-cont2">
+                        <div class="main-cont-cont2">
+                            <h4 class="main-c2-title">Eventos para investidores</h4>
+                            <div class="main-c2-scrn">
+                                <h4 class="main-c2-sub">Entrevista de ganhos do terceiro <br>trimestre de 2022 da Netflix</h4>
+                                <div class="main-c2-content">
+                                    <h6>Próximos eventos | 18 de outubro de 2022 15:00 PT</h6>
+                                </div>
+                                <br>
+                                <h4 class="main-c2-sub">Entrevista de ganhos do segundo<br> trimestre de 2022 da Netflix</h4>
+                                <div class="main-c2-content">
+                                    <h6>19 de julho de 2022 15:00 PT</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-cont-cont2">
+                            <h4 class="main-c2-title">Kit do Investidor</h4>
+                            <div class="main-c2-scrn">
+                                <ul class="main-c2-list">
+                                    <li class="main-c2-lili">| Lista de longo prazo</li>
+                                    <li class="main-c2-lili">| Principais perguntas dos investidores</li>
+                                    <li class="main-c2-lili">| Visão geral da contabilidade de conteúdo</li>
+                                    <li class="main-c2-lili">| Cultura Netflix</li>
+                                    <li class="main-c2-lili">| Abordagem Netflix para Governança Corporativa</li>
+                                    <li class="main-c2-lili">| Informações ESG da Netflix</li>
+                                    <li class="main-c2-lili">| Podcast WeAreNetflix</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="main-cont3">
+                        <div>
+                            <div class="main-cont-cont3">
+                                <h3 class="main-c3-title">Liberações e atualizações financeiras</h3>
+                                <div class="main-c3-block">
+                                    <div class="main-c3-box">
+                                        <h4 class="main-c3-sub">Netflix anunciará resultados<br>financeiros do terceiro <br>trimestre de 2022</h4>
+                                        <h6 class="main-c3-legend">15 de setembro de 2022</h6>
+                                    </div>
+                                    <div class="main-c3-box">
+                                        <h4 class="main-c3-sub">Netflix anunciará resultados<br>financeiros do terceiro <br>segundo de 2022</h4>
+                                        <h6 class="main-c3-legend">15 de setembro de 2022</h6>
+                                    </div>
+                                    <div class="main-c3-box">
+                                        <h4 class="main-c3-sub">Netflix anunciará resultados<br>financeiros do primeiro <br>trimestre de 2022</h4>
+                                        <h6 class="main-c3-legend">15 de setembro de 2022</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-cont4"></div>
+                    <div class="main-cont5"></div>
+
+                </div>
+            </main>
+            <footer class="rodape">
+                <div class="footer-container">
+                    <div class="footer-cont-cont">
+                        <button class="footer-lang"><b>Português</b></button>
+                    </div>
+                    <div class="footer-cont-cont">
+                        <a class="footer-link" routerLink="/">Termo de uso</a>
+                        <a class="footer-link" routerLink="/">Privacidade</a>
+                        <a class="footer-link" routerLink="/">Preferências de cookie</a>
+                        <a class="footer-link" routerLink="/">Informações corporativas</a>
+                    </div>
+                </div>
+            </footer>
+        </router-outlet>
+    </div>
+</body>
+</html>

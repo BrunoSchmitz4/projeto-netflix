@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="freq-ques.component.css">
+    <title>Central de Ajuda</title>
+</head>
+<body class="body">
+    <div class="escopo">
+        <router-outlet>
+            <header class="cabecalho">
+                <div class="header-container">
+                    <div class="header-cont-cont">
+                        <img src="http://localhost:4200/assets/logo-netflix.png" class="header-logo" alt="logo-netflix">
+                        <h4 class="header-name">Central de Ajuda</h4>
+                    </div>
+                    <div class="header-cont-cont">
+                        <a class="header-log-link" routerLink="/">Assine a Netflix</a>
+                        <button routerLink="/" class="header-access">Acessar</button>
+                    </div>
+                </div>
+            </header>
+            <hr>
+            <main class="main">
+            <div class="main-container">
+                <div main-cont-cont>
+                    <h2 class="main-title">O que é a Netflix?</h2>
+                    <img alt="banner-filmes" src="https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png" class="main-imgs">
+                    <p class="main-para">A Netflix é um serviço de streaming por assinatura que permite assistir a séries e filmes sem comerciais em um <br>aparelho conectado à internet.<br><br>Você também pode baixar seus títulos favoritos em aparelhos iOS, Android ou Windows 10 para assitir quando não<br>tiver internet.<br><br>Se você já é assinante e que saber mais sobre como usar o serviço, acesse a intrução à Netflix.
+                    </p>
+                </div>
+                <hr>
+                <div main-cont-cont>
+                    <h2 class="main-title">Séries e Filmes</h2>
+                    <img alt="banner-filmes" src="https://help.nflxext.com/396a2a39-8d34-4260-b07a-6391fe04ded5_what_is_netflix_2_en.png" class="main-imgs">
+                    <p class="main-para">Nosso conteúdo varia onforme a região e pode mudar com o tempo. Assista a séries, filmes, documentários,<br> originais Netflix premiados e muito mais.<br><br>E aproveite nossas recomendações de conteúdo, que vão ficando cada vez melhores com o tempo de uso.
+                    </p>
+                </div>
+                <hr>
+                <div main-cont-cont>
+                    <h2 class="main-title">Aparelhos Compatíveis</h2>
+                    <img alt="banner-filmes" src="https://help.nflxext.com/7ac9b493-ae69-431a-923d-3cb8a79d7e63_what_is_netflix_3_en.png" class="main-imgs">
+                    <p class="main-para">Assista em qualquer aparelho conectado à internet compatível com o aplicativo Netflix, como Smart TVs,<br> videogames, aparelhos de streaming, decodificadores, smartphones e tablets. Você também pode assistir no<br> computador pelo navegador. Confira os requisitos do sistema para verificar a compatibilidade do seu navegador e<br> consulte nossas recomendações de velocidade de internet para aproveitar ao máximo a Netflix.<br><br>Precisa de ajuda? Procure artigos relacionados ao fabricante do aparelho que você está usando em nosso Centro de ajuda.
+                    </p>
+                </div>
+                <hr>
+                <div main-cont-cont>
+                    <h2 class="main-title">Planos e Preços</h2>
+                    <img alt="banner-filmes" src="https://help.nflxext.com/b3e9e3a3-20ff-4974-87d4-162e0a547768_what_is_netflix_4_en.png" class="main-imgs">
+                    <p class="main-para">Cada plano Netflix determina o número de aparelhos em que você pode assistir ao mesmo tempo e se você prefere<br> visualizar o conteúdo em definição padrão (SD), alta definição (HD) ou ultra-alta definição (UHD).<br><br>Compare nossos planos e preços e escolha o ideal para você. Você pode mudar de plano ou cancelar online quando<br> quiser.
+                    </p>
+                </div>
+                <hr>
+                <div main-cont-cont>
+                    <h2 class="main-title">Comece a Usar Já! :)</h2>
+                    <img alt="banner-filmes" src="https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png" class="main-imgs">
+                    <p class="main-para">Siga estas orientações par omeçar a assistir à Netflix hoje mesmo:<br><ol class="main-list" style="list-style: number">
+                        <li class="main-li-li">Acesse <a routerLink="/">netflix.com/signup;</a></li>
+                        <li class="main-li-li">Escolha o plano ideal para,você;</li>
+                        <li class="main-li-li">Crie uma conta usando seu email e uma senha;</li>
+                        <li class="main-li-li">Insira uma forma de pagamento. As cobranças são feitas uma vez por mês, na data em que você assinou.</li>
+                    </ol>
+                    </p>
+                </div>
+                <hr>
+            </div>
+            </main>
+            <footer class="rodape">
+                <div class="footer-container">
+                    <div class="footer-cont-cont">
+                        <button class="footer-lang"><b>Português</b></button>
+                    </div>
+                    <div class="footer-cont-cont">
+                        <a class="footer-link" routerLink="/">Termo de uso</a>
+                        <a class="footer-link" routerLink="/">Privacidade</a>
+                        <a class="footer-link" routerLink="/">Preferências de cookie</a>
+                        <a class="footer-link" routerLink="/">Informações corporativas</a>
+                    </div>
+                </div>
+            </footer>
+        </router-outlet>
+    </div>
+</body>
+</html>

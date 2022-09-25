@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 14px;
+    color: white;
+}
+
+.body{
+    background-color: rgb(31, 31, 31);
+}
+
+body{
+    background-color: black;
+}
+hr{
+    margin: 5px 0 5px 0;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    border: none;
+    height: 2px;
+}
+
+.cabecalho{
+    background-image: linear-gradient( to bottom, rgb(0, 0, 1),#0F0F0F ); 
+}
+.header-container{
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.header-cont-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 0 5px 0 5px;
+}
+
+.header-logo{
+    height: 80px;
+    width: 160px;
+    max-height: 120px;
+    max-width: 200px;
+    min-height: 40px;
+    min-width: 80px;
+    filter: saturate(1000%);
+    filter: brightness(160%);
+}
+
+.header-name{
+}
+
+.header-log-link{
+    background-color: red;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    padding: 4px;
+    border-radius: 2px;
+    border-width: 1px;
+    text-align: center;
+    height: 30px;
+}
+
+.header-log-link:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+    border-color: white;text-shadow: 1px 1px 4px crimson;
+}
+
+.header-access{
+    border: none;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.header-access:hover{
+    transition: 0.5s;
+    background-color: rgb(118, 11, 11);
+}
+
+.header-access:focus{
+    border: none;
+}
+
+.header-access:active{
+    border: none;
+}
+
+.main{
+    background-image: url(https://stories.adorocinema.com/netflix-vai-perder-70-filmes-e-series-em-maio/assets/4.jpeg);
+    filter: opacity(50%);
+    max-height: 1000px;
+    height: 800px;
+}
+.main-title{
+    color: rgb(169, 169, 169);
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgb(41, 0, 0);
+    text-align: center;
+    margin: 0 30% 2% 30%;
+    border: solid;
+    border-width: 1px;
+    /*box-shadow: 3px -5px 2px white;*/
+}
+
+.main-title:hover{
+    transition: 0.5s;
+    box-shadow:
+    1px 1px rgb(255, 255, 255),
+    2px 2px #ffffff,
+    3px 3px #ffffff;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    color: white;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(28, 28, 28, 0.283);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5% 0 5%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.main-boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.main-box{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    text-align: center;
+    height: 100px;
+    width: 175px;
+    margin: 1%;
+    padding: 1% 1% 1% 1%;
+}
+
+.main-box:hover{
+    transition: 0.5s;
+    border-color: white;
+    border-width: 1px 1px 1px 1px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-cont-cont{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-lang{
+    margin-top: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: .5px;
+    background-color: rgba(0,0,0,.4);
+    height: 40px;
+    width: 100px;
+    font-size: 1rem;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+}
