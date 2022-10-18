@@ -7,21 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CatalogoComponent implements OnInit {
 
-<<<<<<< HEAD
-=======
-  film_popular: any[] = [];
-  film_dorama: any[] = [];
-  film_marathon: any[] = [];
 
-
->>>>>>> 2d3ff2d5c297f6f06022cd895f817243593e714a
+  film_popular: any
+  film_dorama: any
+  film_marathon: any
   constructor() { 
     
   }
 
   ngOnInit(): void {
-<<<<<<< HEAD
-=======
     this.film_popular = [
       {
         banner:'https://occ-0-1009-444.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABS8TTN7ds19eu7HIZm815FCg97RGliHOMs4ojygsTJsTDvjczmOxEHHjTze6Md8q2OUR0uYKmRXlBqxd11HONdfh29bXXdPSyr7NrJdO8XimywDLyeXlI_0WMaPxfxeXK6F-2Q.jpg?r=dbd',
@@ -100,7 +94,6 @@ export class CatalogoComponent implements OnInit {
         title: 'Mistério no Mediterrâneo'
       },
     ];
->>>>>>> 2d3ff2d5c297f6f06022cd895f817243593e714a
   }
 
 }
