@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jobs.component.css">
+    <title>Carreiras</title>
+</head>
+<body class="body">
+    <div class="escopo">
+        <router-outlet>
+            <header class="cabecalho">
+                <div class="header-container">
+                    <div class="header-cont-cont">
+                        <img src="http://localhost:4200/assets/logo-netflix.png" class="header-logo" alt="logo-netflix">
+                        <h4 class="header-name">Carreiras</h4>
+                    </div>
+                    <div class="header-cont-cont">
+                        <a class="header-log-link" routerLink="/jobs">EQUIPES</a>
+                        <a class="header-log-link" routerLink="/jobs">LOCALIZAÇÕES</a>
+                        <a class="header-log-link" routerLink="/jobs">TALENTO EMERGENTE</a>
+                        <a class="header-log-link" routerLink="/jobs">WEARENETFLIX</a>
+                        <a class="header-log-link" href="https://www.linkedin.com/jobs/search/?currentJobId=3265922787&f_C=165158&geoId=92000000"><b>Procurar empregos</b></a>
+                    </div>
+                </div>
+            </header>
+            <hr>
+            <main class="main">
+                <div class="main-container">
+                    <div class="main-cont1">
+                        <div class="main-cont-cont1">
+                            <h1 class="main-c1-title">Liberdade e Responsabilidade</h1>
+                            <h5 class="main-c1-sub">
+                                Nossa <u style="text-decoration: underline red">filosofia</u> central é as pessoas sobre o processo.<br> Nossa <u style="text-decoration: underline red">cultura</u> tem sido fundamental para nosso sucesso<br> e nos ajudou a atrair e reter colegas incríveis,<br> tornando o trabalho aqui mais satisfatório.
+                        </h5>
+                        <button class="main-c1-btn">Conheça a nossa cultura!</button>
+                        </div>
+                        <div class="main-cont-cont1">
+                            <div class="main-c1-texter">
+                                <img style="height: 150px; width: 250px;" alt="" src="https://images.ctfassets.net/i5wc420v2vd1/6482BfPUYgw9GqcnxeKXUr/b7bd0b29262020a078b615d7af8eb328/Web-7187.jpg?w=600">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="main-cont2">
+                        <div class="main-cont-cont2">
+                            <h1 class="main-c2-title">Transmissão de entretenimento. Conteúdo original global. <br>Personalização do produto.</h1>
+                            <br>
+                            <h5 class="main-c2-sub">
+                                Nossa primeira série original estreou em 2013. Nas décadas seguintes, o Streaming TV substituirá o linear, e esperamos continuar liderando oferecendo uma experiência de entretenimento incrível.
+                        </h5>
+                        <br>
+                        <button class="main-c2-btn">Conheça a nossa cultura!</button>
+                        </div>
+                        <div class="main-cont-cont2">
+                            <div class="main-c1-texter">
+                                <img style="height: 300px; width: 350px;" alt="" src="https://images.ctfassets.net/i5wc420v2vd1/3YsX6dKHzyaCWsMcoMEYWC/911cfbb7b1dba8c8d92a1ce215a694ac/reed.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="main-cont3">
+                        <div>
+                            <div class="main-cont-cont3">
+                                <h3 class="main-c3-title">Últimas da Netflix</h3>
+                                <div class="main-c3-block">
+                                    <div class="main-c3-box">
+                                        <img class="main-c3-imgs" alt="" src="https://images.ctfassets.net/i5wc420v2vd1/46lakRF2xcypUuXUBiRDJi/540ebd3f2d6d0f4afec3593f2e6864d7/0622_9to5_ep2_Thumbnail_8_1x1.png">
+                                        <legend class="main-c3-legend">9 a 5 com <br>Heather Dowdy</legend>
+                                    </div>
+                                    <div class="main-c3-box">
+                                        <img class="main-c3-imgs" alt="" src="https://images.ctfassets.net/i5wc420v2vd1/3xK5LNdbPl5nTUlKon8UGS/47b285c162a19848733d670b1f7ac2ac/20201218_InclusionReportFilm_Thumbnail_5.jpg">
+                                        <legend class="main-c3-legend">Semeando as sementes: a inclusão se enraíza na Netflix</legend>
+                                    </div>
+                                    <div class="main-c3-box">
+                                        <img class="main-c3-imgs" alt="" src="https://images.ctfassets.net/i5wc420v2vd1/2b4jogdC89A138YkUDR9Pp/10878804845af19bff898d29453d5fbd/20200908_ReedTop5_Still_1x1.png">
+                                        <legend class="main-c3-legend">As 5 principais lições aprendidas de Reed Hastings</legend>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="rodape">
+                <div class="footer-container">
+                    <div class="footer-cont-cont">
+                        <button class="footer-lang"><b>Português</b></button>
+                    </div>
+                    <div class="footer-cont-cont">
+                        <a class="footer-link" routerLink="/jobs">Termo de uso</a>
+                        <a class="footer-link" routerLink="/jobs">Privacidade</a>
+                        <a class="footer-link" routerLink="/jobs">Preferências de cookie</a>
+                        <a class="footer-link" routerLink="/info-corp">Informações corporativas</a>
+                    </div>
+                </div>
+            </footer>
+        </router-outlet>
+    </div>
+</body>
+</html>

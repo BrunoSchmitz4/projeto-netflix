@@ -1,0 +1,465 @@
+*{
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://files.tecnoblog.net/wp-content/uploads/2022/06/stranger-things-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(0, 0, 7);
+}
+
+.header{
+    background-image: linear-gradient(to bottom, black, rgba(33, 33, 33, 0.689));
+}
+.logo{
+    margin-top: 3px;
+    margin-left: 35px;
+    margin-right: 5px;
+    height: 60px;
+    width: 90px;
+    filter: saturate(1000%);
+    filter: brightness(160%);
+}
+
+.header{}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-divisor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.header-divisor-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-nav-btn-l{
+    padding: 2.5px;
+    border: none;
+    border-style: none;
+    background: none;
+    color: rgb(183, 181, 181);
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+}
+
+.header-nav-btn-l:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.header-nav-btn-r:focus{
+    border: none;
+}
+
+.header-nav-sub{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+}
+.header-nav-btn-r{
+    border: none;
+    background: none;
+    color: rgb(183, 181, 181);
+    margin-left: 30%;
+    
+}
+
+.header-nav-btn-r:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.header-btn-icon{
+    width: 30px;
+    height: 30px;
+}
+/* Lista de filmes e séries do catálogo*/
+
+.list-name{
+    margin: 10px 0px -25px 20px;
+    font-size: 20px;
+}
+
+.list-container{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin: 5px 0 5px 0;
+}
+
+.list-box{
+    margin: 25px 0 25px 0;
+}
+.banner-img{
+    border-radius: 6px;
+    width: 200px;
+    height: 250;
+}
+
+.banner-img:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+
+.banner-legend{
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 3px black;
+}
+
+.footer{
+    background-color: rgb(0, 0, 7);
+    background-image: linear-gradient(to top, rgba(48, 48, 48, 0.689), #020001);
+}
+
+.footer-content{
+
+}
+.container-sm-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-sm-list{
+    margin: 10% 0px 10px 0px;
+}
+.sm-link{
+    
+}
+
+.sm-img{
+    width: 40px;
+    height: 40px;
+}
+.footer-sm-btn{
+    
+}
+
+.footer-nav-link{
+    margin-top: 5%;
+}
+
+.footer-nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    margin-left: 25%;
+}
+.footer-final-link{
+    margin: 0 2.5% 5% 2.5%;
+    color: #737373;
+}
+
+.footer-final-link:hover{
+    color: #737373;
+}
+
+.footer-final-link{
+    
+}
+
+.footer-p{
+    border-style: solid;
+    border-color: gray;
+    color: gray;
+    padding: 5px;
+    margin-left: -10%;
+    margin-bottom: 2.5%;
+}
+
+.footer-p:hover{
+    border-color: white;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-h6{
+    color: #737373;
+}
+
+.footer-h6:hover{
+    transition: 0.5s;
+    color:white
+}
+
+/*------------------------------------------------*/
+/*                                                */
+/*                                                */
+/*                                                */
+/*                                                */
+/*                                                */
+/*                                                */
+/* Inicio dos Media Queries para telas de celular */
+/*                                                */
+/*                                                */
+/*                                                */
+/*                                                */
+/*                                                */
+/*------------------------------------------------*/
+
+
+/* substituir para Rows e Cols do Bootstrap, usando seu sistema grid*/
+@media screen and (max-width: 425px) {
+    .meta-query{
+        max-width: 425px;
+        width: 425px;
+        min-width: none;
+    }
+
+    *{
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://files.tecnoblog.net/wp-content/uploads/2022/06/stranger-things-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(0, 0, 7);
+    width: max-content;
+    height: max-content;
+}
+
+.header{
+    background-image: linear-gradient(to bottom, black, rgba(33, 33, 33, 0.689));
+}
+.logo{
+    height: 80px;
+    width: 130px;
+    filter: saturate(1000%);
+    filter: brightness(160%);
+}
+
+.header{
+    width: 425px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.header-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-divisor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-divisor-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-nav-btn-l{
+    padding: 2.5px;
+    border: none;
+    border-style: none;
+    background: none;
+    color: rgb(183, 181, 181);
+    font-size: 18px;
+    margin: 0 10px 0 10px;
+}
+
+.header-nav-btn-l:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.header-nav-btn-r:focus{
+    border: none;
+}
+
+.header-nav-sub{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+.header-nav-btn-r{
+    border: none;
+    background: none;
+    color: rgb(183, 181, 181);
+    margin: 0%;
+    
+}
+
+.header-nav-btn-r:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.header-btn-icon{
+    width: 60px;
+    height: 60px;
+}
+/* Lista de filmes e séries do catálogo*/
+
+.list-name{
+    margin: 10px 0px -25px 20px;
+    font-size: 20px;
+}
+
+.list-container{
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 0 5px 0;
+}
+
+.list-box{
+    margin: 25px 0 25px 0;
+    display: flex;
+
+    flex-direction: column;
+}
+.banner-img{
+    border-radius: 6px;
+    width: 200px;   
+}
+
+.banner-img:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+
+.banner-legend{
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 3px black;
+}
+
+.footer{
+    background-color: rgb(0, 0, 7);
+    background-image: linear-gradient(to top, rgba(48, 48, 48, 0.689), #020001);
+}
+
+.footer-content{
+    
+}
+.container-sm-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-sm-list{
+    margin: 10% 0px 10px 0px;
+}
+.sm-link{
+    
+}
+
+.sm-img{
+    width: 40px;
+    height: 40px;
+}
+.footer-sm-btn{
+    
+}
+
+.footer-nav-link{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.footer-nav-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.footer-final-link{
+    margin: 0 2.5% 5% 2.5%;
+    color: #737373;
+}
+
+.footer-final-link:hover{
+    color: #737373;
+}
+
+.footer-final-link{
+    
+}
+
+.footer-p{
+    border-style: solid;
+    border-color: gray;
+    color: gray;
+    padding: 5px;
+    margin-left: -10%;
+    margin-bottom: 2.5%;
+}
+
+.footer-p:hover{
+    border-color: white;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-h6{
+    color: #737373;
+}
+
+.footer-h6:hover{
+    transition: 0.5s;
+    color:white
+}
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="devices.component.css">
+    <title>Dispositivos</title>
+</head>
+<body class="body">
+    <div class="escopo">
+<router-outlet>
+    <header class="cabecalho">
+        <div class="header-container">
+            <div class="header-cont-cont">
+                <img src="http://localhost:4200/assets/logo-netflix.png" class="header-logo" alt="logo-netflix">
+            </div>
+            <div class="header-cont-cont">
+                <button type="button" class="header-log-link" routerLink="/">
+                    Entrar</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-content">
+            <h2 class="main-title">Conecte-se à Netflix usando seus dispositivos favoritos.</h2>
+        </div>
+        <div class="main-content">
+            <div class="main-boxes">
+                <div class="main-box">Reprodutores de mídia</div>
+                <div class="main-box">Smart TVs</div>
+                <div class="main-box">Consoles de jogos</div>
+                <div class="main-box">Caixas de decodificadores</div>
+                <div class="main-box">Leitores de Blu-ray</div>
+                <div class="main-box">Smartphones e tablets</div>
+                <div class="main-box">Computadores e laptops</div>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="footer-container">
+            <div class="footer-cont-cont">
+                <button class="footer-lang"><b>Português</b></button>
+            </div>
+            <div class="footer-cont-cont">
+                <a class="footer-link" routerLink="/">Termo de uso</a>
+                <a class="footer-link" routerLink="/">Privacidade</a>
+                <a class="footer-link" routerLink="/">Preferências de cookie</a>
+                <a class="footer-link" routerLink="/">Informações corporativas</a>
+            </div>
+        </div>
+    </footer>
+</router-outlet>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="use-terms.component.css">
+
+    <title>Termos de Uso</title>
+</head>
+<body class="body">
+    <div class="escopo">
+<router-outlet>
+    <header class="cabecalho">
+        <div class="header-container">
+            <div class="header-cont-cont">
+                <img src="http://localhost:4200/assets/logo-netflix.png" class="header-logo" alt="logo-netflix">
+                
+                <h4 class="header-title">| Termos de Uso</h4>
+            </div>
+            <div class="header-cont-cont">
+                <button type="button" class="header-log-link" routerLink="/">Voltar</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-content">
+            <h1 class="main-title">Termos de Uso da Netflix:</h1>
+            <h5 class="main-sub">A Netflix fornece um serviço personalizado de assinatura que permite aos nossos assinantes acessar conteúdo de entretenimento (“conteúdo da Netflix”) pela Internet, em determinados televisores, computadores e outros aparelhos conectados à Internet (“aparelhos compatíveis com a Netflix”).<br><br>Estes Termos de Uso regulam a sua utilização do serviço Netflix. Usados nestes Termos de Uso, os termos “serviço Netflix”, “nosso serviço” ou “o serviço” significam o serviço personalizado fornecido pela Netflix, para buscar e acessar conteúdo da Netflix, incluindo todos os recursos e funcionalidades, recomendações e avaliações, nossos sites e as interfaces do usuário, assim como todo o conteúdo e software associados ao serviço.</h5>
+            <div class="main-container">
+                <ol class="main-terms-list">
+                    <li class="main-topic">
+                        <div class="main-title">1. <b>Assinatura</b></div><br><br><div class="main-txts">1.1. Sua assinatura Netflix continuará até que seja cancelada. Para utilizar o serviço Netflix, você precisa ter acesso à Internet e um aparelho compatível com a Netflix, bem como fornecer uma ou mais Formas de Pagamento. “Forma de Pagamento” refere-se a uma forma de pagamento atualizada, válida e aceitável, que poderá ser atualizada periodicamente, e que poderá incluir o pagamento por meio da sua conta com terceiros. A menos que cancele a assinatura antes da data de cobrança, você nos autoriza a cobrar a taxa de assinatura do próximo ciclo de faturamento usando a sua Forma de Pagamento (consulte “Cancelamento” abaixo).<br><br>1.2. Poderemos oferecer vários planos de assinatura, inclusive assinaturas disponibilizadas por terceiros em combinação com a oferta de seus próprios produtos e serviços. A Netflix não se responsabiliza pelos produtos e serviços fornecidos por tais terceiros. Alguns planos de assinatura podem ter condições e limitações diferentes, que serão reveladas no momento de sua inscrição ou em outras comunicações disponibilizadas a você. Você pode encontrar detalhes específicos a respeito da sua assinatura da Netflix acessando o site netflix.com e clicando no link “Conta”, exibido abaixo do nome de seu perfil na parte superior de todas as páginas.</div></li>
+                    <li class="main-topic">
+                        <div class="main-title">2. <b>Ofertas promocionais</b></div>
+                        <div class="main-txts">A Netflix poderá disponibilizar ofertas, planos ou assinaturas promocionais especiais (“Ofertas”). A elegibilidade para as Ofertas é determinada pela Netflix a seu exclusivo critério. A Netflix se reserva o direito de revogar uma Oferta e suspender sua conta se determinarmos que você não é elegível. Moradores de uma mesma residência com uma assinatura Netflix atual ou recente podem não ser elegíveis para Ofertas introdutórias específicas. A Netflix poderá usar informações como identificação do aparelho, forma de pagamento ou email da conta usados em uma assinatura Netflix atual ou recente para determinar a elegibilidade para a Oferta. Os requisitos de elegibilidade, bem como outras limitações e condições, serão revelados quando você se inscrever para a Oferta ou em outras comunicações que disponibilizaremos para você.</div>
+                    </li>
+                    <li class="main-topic"></li>
+                    <li class="main-topic"></li>
+                    <li class="main-topic"></li>
+                    <li class="main-topic"></li>
+                </ol>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="footer-container">
+            <div class="footer-cont-cont">
+                <button class="footer-lang">Português</button>
+            </div>
+            <div class="footer-cont-cont">
+                <a class="footer-link" routerLink="/">Termo de uso</a>
+                <a class="footer-link" routerLink="/">Privacidade</a>
+                <a class="footer-link" routerLink="/">Preferências de cookie</a>
+                <a class="footer-link" routerLink="/">Informações corporativas</a>
+            </div>
+        </div>
+    </footer>
+</router-outlet>
