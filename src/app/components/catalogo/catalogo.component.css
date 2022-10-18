@@ -229,8 +229,11 @@ body{
 /*                                                */
 /*------------------------------------------------*/
 
+<<<<<<< HEAD
 
 /* substituir para Rows e Cols do Bootstrap, usando seu sistema grid*/
+=======
+>>>>>>> 2d3ff2d5c297f6f06022cd895f817243593e714a
 @media screen and (max-width: 425px) {
     .meta-query{
         max-width: 425px;
