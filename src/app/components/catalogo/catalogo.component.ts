@@ -8,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class CatalogoComponent implements OnInit {
 
 
+  // Lista de filmes do catálogo
   film_popular: any
   film_dorama: any
   film_marathon: any
+
+  // Links para mídias sociais
+  social_medias: any
+
   constructor() { 
     
   }
@@ -92,6 +97,29 @@ export class CatalogoComponent implements OnInit {
       {
         banner: 'https://occ-0-577-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWbUXh_0qWfID5qMH-K_ngPM12dd1q8Ox-sWjbNmyy0zhjMdznvUPgW05g2WiKnPStjlk2ssLs1jkZhLlBEx94wlmZF6sy7hJBuDvhR_Lzbq31gmWeZuFYaWdn7eTN5eL6pZ.jpg?r=9af',
         title: 'Mistério no Mediterrâneo'
+      },
+    ];
+
+    this.social_medias = [
+      {
+        name_btn: 'Facebook',
+        img_btn: 'https://cdn-icons-png.flaticon.com/128/3670/3670124.png',
+        link_btn: 'https://www.facebook.com/netflixbrasil',
+      },
+      {
+        name_btn: 'Instagram',
+        img_btn: 'https://cdn-icons-png.flaticon.com/128/3938/3938051.png',
+        link_btn: 'https://www.instagram.com/NetflixBrasil/',
+      },
+      {
+        name_btn: 'Twitter Brasil',
+        img_btn: 'https://cdn-icons-png.flaticon.com/128/3670/3670211.png',
+        link_btn: 'https://twitter.com/NetflixBrasil',
+      },
+      {
+        name_btn: 'Youtube',
+        img_btn: 'https://cdn-icons-png.flaticon.com/128/185/185983.png',
+        link_btn: 'https://www.youtube.com/user/NetflixBRA',
       },
     ];
   }

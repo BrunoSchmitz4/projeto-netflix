@@ -152,6 +152,11 @@ body{
 }
 .footer-sm-list{
     margin: 10% 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .sm-link{
     
@@ -190,6 +195,17 @@ body{
     
 }
 
+.footer-sm-name{
+    font-size: 12px;
+    color: rgb(138, 138, 138);
+}
+
+.footer-sm-name:hover{
+    transition: 0.2s;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
 .footer-p{
     border-style: solid;
     border-color: gray;
@@ -213,6 +229,7 @@ body{
     transition: 0.5s;
     color:white
 }
+
 
 /*------------------------------------------------*/
 /*                                                */
@@ -405,6 +422,10 @@ body{
     
 }
 
+.footer-sm-name{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
 .footer-nav-link{
     margin-top: 5%;
     display: flex;

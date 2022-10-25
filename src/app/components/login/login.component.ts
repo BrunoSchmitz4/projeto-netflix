@@ -6,13 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
-<<<<<<< HEAD
-  constructor() { }
-
-  ngOnInit(): void {
-=======
-
+  
   links_list1: any = [];
   constructor() { }
 
@@ -24,7 +18,6 @@ export class LoginComponent implements OnInit {
     //   {navs: '/info-corp', name: 'Informações Corporativas'},
     //   {navs: '/original', name: 'Só na Netflix'}
     // ];
->>>>>>> 2d3ff2d5c297f6f06022cd895f817243593e714a
   }
 
 }
