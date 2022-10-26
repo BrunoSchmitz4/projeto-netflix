@@ -136,6 +136,7 @@ hr{
     text-align: center;
     text-shadow: 1.5px 1.5px 3px black;
 }
+
 .footer-container{
     display: flex;
     flex-direction: row;
